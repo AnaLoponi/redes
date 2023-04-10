@@ -14,6 +14,10 @@ Mas como isso funciona? 👇
 * [Algumas coisas que valem a pena aprender ou relembrar.ipynb](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/Algumas%20coisas%20que%20valem%20a%20pena%20aprender%20ou%20relembrar.ipynb)
 > Importações, Funções e Lógica de Programação já mencionadas ou usadas antes, que podem auxiliar o desenvolvimento dos algoritmos genéticos.
 
+* [experimento GA.02 - performance caixas binarias]()
+> Comparação de performances para os algoritmos de otimização que já utilizamos nos outros experimentos (busca aleatória, busca em grade e algoritmos genéticos) na resolução do problema das caixas binárias.  
+Ainda não desenvolvido.
+
 * [experimento A.01 - busca aleatoria.ipynb](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/experimento%20A.01%20-%20busca%20aleatoria.ipynb)
 > O algoritmo de busca aleatória é um certo espaço de busca, em que definimos de onde sorteamos candidatos de soluções para o problema.
 Utilizando o problema das caixas binárias, temos um número aleatório de caixas, que só podem ser preenchidas com 0 e 1. Sendo assim, o objetivo é encontrar uma combinação de caixas que, ao serem somadas, atingem o valor máximo. Temos um problema de Maximização! 
@@ -33,7 +37,7 @@ Lembre-se: ainda devemos encontrar o valor máximo da soma dessas caixas!
 * [experimento A.05 - descobrindo a senha.ipynb](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/experimento%20A.05%20-%20descobrindo%20a%20senha.ipynb)
 > Como utilizar algoritmos genéticos para descobrir senhas? Neste caso, a lógica não foi perto do real, pois, a função objetivo já teria a senha informada e desse modo calcularia a distância de seus "chutes" até encontrar a senha correta. Vale a pena tentar ;)
 
-* Experimento A.06
+* [experimento A.06 - o caixeiro viajante.ipynb](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/experimento%20A.06%20-%20o%20caixeiro%20viajante.ipynb)
 > O problema do caixeiro viajante define-se em visitar uma lista de cidades, passando por cada uma apenas uma vez e ainda, utilizando o menor caminho possível (já sabemos que este é um problema de minimização). Ao terminar de visitar todas as cidades, ele retorna ao ponto de origem, esse é o critério de parada. Mas, para utilizar algoritmos genéticos devemos modificar algumas das funções. Vem descobrir!
 
 <sub> Arquivos .py </sub>
