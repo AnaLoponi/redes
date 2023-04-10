@@ -14,7 +14,7 @@ Mas como isso funciona? 👇
 * [Algumas coisas que valem a pena aprender ou relembrar.ipynb](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/Algumas%20coisas%20que%20valem%20a%20pena%20aprender%20ou%20relembrar.ipynb)
 > Importações, Funções e Lógica de Programação já mencionadas ou usadas antes, que podem auxiliar o desenvolvimento dos algoritmos genéticos.
 
-* [experimento GA.02 - performance caixas binarias]()
+* [experimento GA.02 - performance caixas binarias](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/experimento%20GA.02%20-%20performance%20caixas%20binarias.ipynb)
 > Comparação de performances para os algoritmos de otimização que já utilizamos nos outros experimentos (busca aleatória, busca em grade e algoritmos genéticos) na resolução do problema das caixas binárias.  
 Ainda não desenvolvido.
 
