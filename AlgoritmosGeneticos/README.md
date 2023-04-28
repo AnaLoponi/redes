@@ -14,7 +14,7 @@ Mas como isso funciona? 👇
 * [Algumas coisas que valem a pena aprender ou relembrar.ipynb](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/Algumas%20coisas%20que%20valem%20a%20pena%20aprender%20ou%20relembrar.ipynb)
 > Importações, Funções e Lógica de Programação já mencionadas ou usadas antes, que podem auxiliar o desenvolvimento dos algoritmos genéticos.
 
-* [experimento GA.02 - performance caixas binarias](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/experimento%20GA.02%20-%20performance%20caixas%20binarias.ipynb)
+* [experimento GA.03 - o caixeiro viajante com gasolina infinita](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/experimento%20GA.03%20-%20o%20caixeiro%20com%20gasolina%20infinita.ipynb)
 > Comparação de performances para os algoritmos de otimização que já utilizamos nos outros experimentos (busca aleatória, busca em grade e algoritmos genéticos) na resolução do problema das caixas binárias.  
 Ainda não desenvolvido.
 
@@ -39,6 +39,9 @@ Lembre-se: ainda devemos encontrar o valor máximo da soma dessas caixas!
 
 * [experimento A.06 - o caixeiro viajante.ipynb](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/experimento%20A.06%20-%20o%20caixeiro%20viajante.ipynb)
 > O problema do caixeiro viajante define-se em visitar uma lista de cidades, passando por cada uma apenas uma vez e ainda, utilizando o menor caminho possível (já sabemos que este é um problema de minimização). Ao terminar de visitar todas as cidades, ele retorna ao ponto de origem, esse é o critério de parada. Mas, para utilizar algoritmos genéticos devemos modificar algumas das funções. Vem descobrir!
+
+* [experimento A.07 - aplicando restricoes.ipynb](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/experimento%20A.07%20-%20aplicando%20restricoes.ipynb)
+> Precisamos encontrar uma solução para que uma mochila (que aguenta até 15 unidades de massa) armazene a maior quantidade de produtos, e, agregue o maior valor monetário possível, ou seja, os produtos mais caros da lista. Esse é um problema de maximização!
 
 <sub> Arquivos .py </sub>
 * [funcoes.py](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/funcoes.py)
