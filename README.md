@@ -22,7 +22,7 @@ Guia Rápido 👇
 > <sub>Arquivo texto que indica regras ao Git sobre quais arquivos ou pastas ele deve ignorar em um projeto. [Saiba Mais](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)</sub>
 * LICENSE
 > <sub>Necessário para licenciar o uso do repositório. Versão: GNU General Public License v3.0. [Saiba Mais](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository)</sub>
-* READM.md
+* README.md
 > <sub>Onde estão armazenadas todas as informações que você acabou de ler ✔️</sub>
 * experimento_template.ipynb
 > <sub>Estrutura do Notebook de desenvolvimento. Arquivo .ipynb</sub>
