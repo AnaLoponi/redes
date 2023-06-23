@@ -725,3 +725,82 @@ def funcao_objetivo_pop_mochila(populacao, objetos, limite, ordem_dos_nomes):
         )
 
     return resultado
+
+######################################################################
+#                           PALINDROMO                               #
+######################################################################
+
+def gene_palindromo(letrinhas):
+    '''Gera um gene válido(letra) para o problema dos palindromos.
+    Args:
+      letrinha: Os possíveis genes(letras) a serem sorteadas.
+    Return:
+       A letrinha dentro das possibilidades de sorteio. 
+    '''
+    letrinha = random.choice(letrinhas)
+    return letrinha
+
+def individuo_palindromo(tamanho_palindromo, letrinhas):
+    ''' Cria um candidato para o problema do palindromo.
+    Args:
+      tamanho_palindromo: inteiro representando o tamanho do palindromo.
+      letrinha: letrinhas possíveis de serem sorteadas.
+    Return:
+      Lista com n letrinhas.
+    '''
+
+    candidato = []
+
+    for n in range(tamanho_palindromo):
+        candidato.append(gene_palindromo(letrinhas))
+
+    return candidato
+
+def mutacao_palindromo(individuo, letrinhas):
+    """Realiza a mutação de um gene no problema dos palindromos.
+    Args:
+      individuo: uma lista representado um individuo no problema dos palindromos
+      letras: letras possíveis de serem sorteadas.
+    Return:
+      Um individuo (senha) com um gene mutado.
+    """
+    gene = random.randint(0, len(individuo) - 1)
+    individuo[gene] = gene_palindromo(letrinhas)
+    return individuo
+
+def funcao_objetivo_palindromo(individuo):
+    """Computa a funcao objetivo de um individuo no problema dos palindromos.
+    Args:
+      individiuo: lista contendo as letras do palindromo.
+    Returns:
+      O fitness da função objetivo, se a letra_serase for diferente da letra_palindromo, o 
+      nosso fitness aumenta e consequentemente não se cumpre o exercício. Por sua vez, se não
+      tivermos uma vogal, há o retorno de um fitness alto diminuindo o valor dos exercícios.
+    """
+    fitness = 0
+    letras_vogais = 'aeiou'
+    palindromo = individuo[::-1]
+    for letra_serase, letra_palindromo in zip(individuo, palindromo):
+        if letra_serase != letra_palindromo:
+            fitness = fitness + 5
+    
+    if any(letra in letras_vogais for letra in individuo):
+        pass
+    else:
+        fitness = fitness + 5
+        
+    return fitness
+
+def funcao_objetivo_pop_palindromo(populacao):
+    """Computa a funcao objetivo de uma populaçao no problema dos palindromos.
+    Args:
+      populacao: lista com todos os individuos da população.
+    Returns:
+      Lista contendo os valores da métrica de distância entre as vogais.
+    """
+    resultado = []
+
+    for individuo in populacao:
+        resultado.append(funcao_objetivo_palindromo(individuo))
+
+    return resultado
