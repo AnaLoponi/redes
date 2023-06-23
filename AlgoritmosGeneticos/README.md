@@ -18,6 +18,9 @@ Mas como isso funciona? 👇
 > Comparação de performances para os algoritmos de otimização que já utilizamos nos outros experimentos (busca aleatória, busca em grade e algoritmos genéticos) na resolução do problema das caixas binárias.  
 Ainda não desenvolvido.
 
+* [experimento GA.05 - palindromos](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/experimento%20GA.05%20-%20palindromos.ipynb)
+> Identificando palíndromos, com algumas diretrizes e limites. Eles devem ter cinco letras, e não necessariamente precisam ser uma palavra em português.
+
 * [experimento A.01 - busca aleatoria.ipynb](https://github.com/AnaLoponi/redes/blob/main/AlgoritmosGeneticos/experimento%20A.01%20-%20busca%20aleatoria.ipynb)
 > O algoritmo de busca aleatória é um certo espaço de busca, em que definimos de onde sorteamos candidatos de soluções para o problema.
 Utilizando o problema das caixas binárias, temos um número aleatório de caixas, que só podem ser preenchidas com 0 e 1. Sendo assim, o objetivo é encontrar uma combinação de caixas que, ao serem somadas, atingem o valor máximo. Temos um problema de Maximização! 
